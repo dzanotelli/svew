@@ -1,4 +1,4 @@
-= Simple VirtualEnv Wrapper =
+# Simple VirtualEnv Wrapper #
 
 (C) 2017 Daniele Zanotelli
     dazano@gmail.com
@@ -6,11 +6,11 @@
 A simple tool to manage python virtualenvs. Compatible with virtualenvwrapper
 (using the same environment variables).
 
-== Configuration sample ==
+## Configuration sample ##
 
 Add the following lines into your .bashrc file
 
-"""
+<pre>
 # SVEW
 SVEW="/path/to/svew/svew.bash"
 SVEW_COMPLETION="/path/to/svew/svew_completion.bash"
@@ -22,4 +22,4 @@ fi
 if [ -f "$SVEW_COMPLETION" ] ; then
     . "$SVEW_COMPLETION"
 fi
-"""
+<pre>
