@@ -9,14 +9,8 @@
 # Small script to activate the python wirtualenv even kept in $WORKON_HOME
 # without using virtualenv warpper
 
-##
-# NOTE:
-# In order to use this, you need to source this script. Eg, provide a
-# `source /path/to/activate_ve.bash' line in your .bashrc file
-
 ####
-# Activate a virtualenv kept in $WORKON_HOME (compatibility with virtualenv
-# wrapper)
+# Activate a virtualenv kept in $WORKON_HOME
 #
 # param $1: the name of the virtualenv to activate
 #
