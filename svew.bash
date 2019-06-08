@@ -64,7 +64,7 @@ function tree_activate_virtualenv {
     STARTING_DIR=$(pwd)
     FOUND=0
 
-    # recurively search for `bin/activate'
+    # recursively search for `bin/activate'
     while [ $(pwd) != $HOME ] && [ $(pwd) != '/home' ] && [ $(pwd) != '/' ] ;
     do
         if [ -d "bin" ] && [ -f "bin/activate" ] ; then
@@ -80,7 +80,7 @@ function tree_activate_virtualenv {
         echo "Virtual env not found."
     fi
 
-    # cd back to stargin directory
+    # cd back to starting directory
     cd $STARTING_DIR
 }
 
