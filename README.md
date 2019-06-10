@@ -21,7 +21,8 @@ cp bash/* /path/to/svew/
 `/usr/share/bash/svew`.*
 
 
-Then add the following lines into your `.bashrc` file:
+Then add the following lines into your `.bashrc` file (replacing
+`/path/to/svew` with your installation path):
 
 ```
 # SVEW
@@ -53,5 +54,5 @@ This will make svew available for all the users in the system. Alternatively,
 you can choose to copy svew files under `~/.config/fish/functions` and
 `~/.config/fish/completions` for each user you want to make svew available for.
 
-*You don't need any further configuration to have svew working; fish
+*You don't need any further configuration to have svew working: fish
 autodiscover features should make svew functions available automagically.*
