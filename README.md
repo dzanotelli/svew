@@ -32,16 +32,16 @@ fi
 
 ### fish
 
-Just copy `svew.fish` under your functions:
+Just copy `svew.fish` under your local user functions:
 
 ```
-cp svew.fish ~/.config/functions/
+cp svew.fish ~/.config/fish/functions/
 ```
 
 and the completion file under your completions:
 
 ```
-cp svew_completion.fish ~/.config/completions
+cp svew_completion.fish ~/.config/fish/completions
 ```
 
 *For system installation please check the official fish shell docs.*
