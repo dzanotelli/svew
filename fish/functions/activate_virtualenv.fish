@@ -6,13 +6,13 @@ function activate_virtualenv
 
     if not test -d $WORKON_HOME
         echo "Bad virtualenv basedir: '$WORKON_HOME'. Abort."
-        exit 1
+        return
     end
 
     # arg check
     if not count $argv > /dev/null
        echo "Missing virtualenv name."
-       exit 1
+       return
     end
 
     # build the whole path
@@ -20,7 +20,7 @@ function activate_virtualenv
 
     if not test -d $FULL_ENV_PATH
        echo "Virtualenv '$FULL_ENV_PATH' does not exist. Abort."
-       exit 1
+       return
     end
 
     # check there is an activate script
