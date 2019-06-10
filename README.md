@@ -41,7 +41,7 @@ cp svew.fish ~/.config/fish/functions/
 and the completion file under your completions:
 
 ```
-cp svew_completion.fish ~/.config/fish/completions
+cp svew_completion.fish ~/.config/fish/completions/
 ```
 
 *For system installation please check the official fish shell docs.*
