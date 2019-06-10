@@ -11,7 +11,17 @@ A simple tool to activate python virtualenvs. Compatible with virtualenvwrapper
 
 ### bash
 
-Add the following lines into your .bashrc file
+Copy the files placed under `bash/` wherever you feel fine with.
+
+```
+cp bash/* /path/to/svew/
+```
+
+*A good practice may be to copy them under `/opt/svew/` or
+`/usr/share/bash/svew`.*
+
+
+Then add the following lines into your `.bashrc` file:
 
 ```
 # SVEW
@@ -29,10 +39,9 @@ fi
 ```
 
 
-
 ### fish
 
-The best way to install svew stuff is to copy the functions under its third
+The best way to install svew stuff is to copy the functions under the third
 party directory:
 
 ```
@@ -40,6 +49,9 @@ cp fish/functions/* /usr/share/fish/vendor_functions.d/
 cp fish/completions/* /usr/share/fish/vendor_completions.d/
 ```
 
-This will make svew available for all the users on the system. Alternatively,
+This will make svew available for all the users in the system. Alternatively,
 you can choose to copy svew files under `~/.config/fish/functions` and
 `~/.config/fish/completions` for each user you want to make svew available for.
+
+*You don't need any further configuration to have svew working; fish
+autodiscover features should make svew functions available automagically.*
